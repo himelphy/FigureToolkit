@@ -1,4 +1,3 @@
-FigureToolkit: Open-Source Tools for Scientific Figure Preparation
 FigureToolkit is a collection of three open-source R Shiny applications developed to support scientific figure preparation, panel arrangement, and image annotation. The toolkit aims to make figure-related workflows more accessible to researchers, students, and academicians, including those working in resource-limited settings.
 The applications use the R ecosystem and provide a graphical interface to support relevant tasks without requiring users to write R code during routine use.
 Applications
