@@ -1,12 +1,15 @@
-FigureToolkit is a collection of three open-source R Shiny applications developed to support scientific figure preparation, panel arrangement, and image annotation. The toolkit aims to make figure-related workflows more accessible to researchers, students, and academicians, including those working in resource-limited settings.
+FigureToolkit is a collection of four open-source R Shiny applications developed to support scientific figure preparation, panel arrangement, image annotation, and medical imaging conversion. The toolkit aims to make figure-related workflows more accessible to researchers, students, and academicians, including those working in resource-limited settings.
+
 The applications use the R ecosystem and provide a graphical interface to support relevant tasks without requiring users to write R code during routine use.
+
 Applications
-1. FigureSight
-An R Shiny application that checks the compliance of figures with PubMed Central’s suggested quality standards for figures. It helps to upscale and crop images according to necessity. It also helps to save images in TIFF, PNG, JPG, and PDF formats.
-2. AnnotateSight
-An R Shiny application designed to help in the annotation of images with arrows, circles, boxes, or text. Users need to select the components, activate click placement, and click on the image to place the element.
-3. PanelSight
-An R Shiny application that automates the assembly of multi-part scientific figures, enabling researchers to combine individual charts, clinical photographs, and diagnostic scans into cohesive, journal-ready layouts. Users can add panel labels in various formats.
+1. FigureSight: An R Shiny application that checks the compliance of figures with PubMed Central’s suggested quality standards for figures. It helps to upscale and crop images according to necessity. It also helps to save images in TIFF, PNG, JPG, and PDF formats.
+
+2. AnnotateSight: An R Shiny application designed to help in the annotation of images with arrows, circles, boxes, or text. Users need to select the components, activate click placement, and click on the image to place the element.
+
+3. PanelSight: An R Shiny application that automates the assembly of multi-part scientific figures, enabling researchers to combine individual charts, clinical photographs, and diagnostic scans into cohesive, journal-ready layouts. Users can add panel labels in various formats.
+
+4. DICOMSight: An R Shiny application for converting, windowing, and cropping medical imaging files (.dcm) across Computed Tomography (CT), Magnetic Resonance Imaging (MRI), and Ultrasound (USG). It provides modality-specific contrast presets (e.g., bone, soft tissue, lung, brain, MRI fluid optimization, and Doppler RGB passthrough), slice navigation for multi-frame series, interactive region-of-interest (ROI) cropping, and direct export to high-resolution TIFF, PNG, JPG, or PDF formats at publication-grade DPI settings.
 
 Requirements
 * R
