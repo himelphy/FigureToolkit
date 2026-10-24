@@ -17,17 +17,21 @@ Requirements
 * An internet connection for initial installation of R packages, if required
 
 Installation and Use:
-> Step 1: Install R
+
+* Step 1: Install R
 Download and install R from:
 https://cran.r-project.org/
->Step 2: Install RStudio
+
+* Step 2: Install RStudio
 Download RStudio Desktop from:
 https://posit.co/download/rstudio-desktop/
-> Step 3: Download the repository
+
+* Step 3: Download the repository
 Clone this repository using Git:
 git clone https://github.com/himelphy/FigureToolkit
 Alternatively, click Code → Download ZIP on the GitHub repository page and extract the downloaded folder.
-> Step 4: Run an application
+
+* Step 4: Run an application
 1. Open the downloaded FigureToolkit folder.
 2. Open the folder of the application you want to use.
 3. Open its app.R file in RStudio.
